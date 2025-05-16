@@ -2173,7 +2173,8 @@ figcaption {
 }
 
 .footer-social-link {
-  border: 1px solid var(--base-color-brand--white);
+  /* border: 1px solid var(--base-color-brand--white); */
+  background-color: black; /* extra */
   text-transform: uppercase;
   border-radius: 6.25em;
   padding: .5rem 1.5rem;
@@ -2183,8 +2184,10 @@ figcaption {
 }
 
 .footer-social-link:hover {
-  background-color: var(--base-color-brand--white);
-  color: var(--base-color-brand--black);
+  background-color: transparent;
+  transition: background-color .2s, color .2s;
+  border: 1px solid var(--base-color-brand--white);
+  color: var(--base-color-brand--white);
 }
 
 .footer-social-link.w--current {
