@@ -2081,7 +2081,7 @@ figcaption {
 }
 
 .first-row {
-  margin-left: 0em;
+  margin-left: 4em;
   display: inline-block;
   letter-spacing: 2px;
 }
@@ -3237,9 +3237,9 @@ figcaption {
     padding-bottom: 3rem;
   }
 
-  .second-row {
+  /* .second-row {
     padding-right: 13.5rem;
-  }
+  } */
 
   .hero-heading {
     font-size: 3.2rem;
@@ -3558,7 +3558,7 @@ figcaption {
 
   .second-row {
     margin-right: 0;
-    padding-right: 44vw;
+    padding-right: 14vw;
   }
 
   .section-hero {
@@ -3649,12 +3649,12 @@ figcaption {
   }
 
   .first-row {
-    margin-left: 0;
+    margin-left: 1em;
     letter-spacing: 2px;
   }
 
   .third-row {
-    margin-left: 3em;
+    margin-left: 4em;
   }
 
   .price-big-text {
